@@ -3,12 +3,29 @@ using System.Threading;
 
 namespace _13.StartingAThread
 {
+    public class PrintingInfo
+    {
+        public int ProcessedNumbers { get; set; }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Thread t1 = new Thread(() => Print(true));
+            var printInfo = new PrintingInfo();
+
+            Thread t1 = new Thread(() => Print(true, printInfo));
             t1.Start();
+
+            if (t1.Join(TimeSpan.FromMilliseconds(5000)))
+            {
+                Console.WriteLine($"I'm sure that spawned thread " +
+                                    $"processed that many: {printInfo.ProcessedNumbers}");
+            }
+            else
+            {
+                Console.WriteLine("Timed out. Can't process results");
+            }
 
             Thread.Sleep(10);
 
@@ -17,11 +34,11 @@ namespace _13.StartingAThread
             Console.WriteLine("After abort");
             Console.ReadLine();
 
-            Print(true);
+            Print(true, printInfo);
 
             Console.ReadLine();
         }
-        private static void Print(bool isEven)
+        private static void Print(bool isEven, PrintingInfo printingInfo)
         {
             //try
             //{
@@ -32,6 +49,7 @@ namespace _13.StartingAThread
                 {
                     if (i % 2 == 0 && isEven)
                     {
+                        printingInfo.ProcessedNumbers++;
                         Console.WriteLine(i);
                     }
                 }
@@ -42,6 +60,7 @@ namespace _13.StartingAThread
                 {
                     if (i % 2 != 0)
                     {
+                        printingInfo.ProcessedNumbers++;
                         Console.WriteLine(i);
                     }
                 }
