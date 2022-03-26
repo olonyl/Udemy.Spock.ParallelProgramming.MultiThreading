@@ -10,12 +10,21 @@ namespace _13.StartingAThread
             Thread t1 = new Thread(() => Print(true));
             t1.Start();
 
+            Thread.Sleep(10);
+
+            t1.Abort();
+
+            Console.WriteLine("After abort");
+            Console.ReadLine();
+
             Print(true);
 
-            Console.Read();
+            Console.ReadLine();
         }
         private static void Print(bool isEven)
         {
+            //try
+            //{
             Console.WriteLine($"Current Thread ID: {Thread.CurrentThread.ManagedThreadId}");
             if (isEven)
             {
@@ -37,6 +46,11 @@ namespace _13.StartingAThread
                     }
                 }
             }
+            //}
+            //catch (ThreadAbortException ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
 
         }
     }
