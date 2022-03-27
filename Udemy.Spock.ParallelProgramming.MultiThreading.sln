@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.APMandEAP", "21.APMandEA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.StartingATask", "22.StartingATask\22.StartingATask.csproj", "{8DB1F004-CD72-4306-B5A6-CE3AE1282CED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26.CancellingATask", "26.CancellingATask\26.CancellingATask.csproj", "{7041BF9D-A7D0-46F3-97C8-3C5C492EE05F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8DB1F004-CD72-4306-B5A6-CE3AE1282CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB1F004-CD72-4306-B5A6-CE3AE1282CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB1F004-CD72-4306-B5A6-CE3AE1282CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7041BF9D-A7D0-46F3-97C8-3C5C492EE05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7041BF9D-A7D0-46F3-97C8-3C5C492EE05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7041BF9D-A7D0-46F3-97C8-3C5C492EE05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7041BF9D-A7D0-46F3-97C8-3C5C492EE05F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
