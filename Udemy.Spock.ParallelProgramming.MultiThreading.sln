@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.CreateProcess", "13.Crea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.StartingAThread", "13.StartingAThread\13.StartingAThread.csproj", "{5FEAEBAD-2EE3-41F4-9A39-29B4CDD5B565}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.APMandEAP", "21.APMandEAP\21.APMandEAP.csproj", "{DE6E3AB4-C7C6-4FCD-AC02-4B731F320755}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5FEAEBAD-2EE3-41F4-9A39-29B4CDD5B565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FEAEBAD-2EE3-41F4-9A39-29B4CDD5B565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FEAEBAD-2EE3-41F4-9A39-29B4CDD5B565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6E3AB4-C7C6-4FCD-AC02-4B731F320755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6E3AB4-C7C6-4FCD-AC02-4B731F320755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6E3AB4-C7C6-4FCD-AC02-4B731F320755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6E3AB4-C7C6-4FCD-AC02-4B731F320755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
