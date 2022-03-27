@@ -9,6 +9,7 @@ namespace _27.ChainingTasks
         static void Main(string[] args)
         {
             var cts = new CancellationTokenSource();
+            var cts2 = new CancellationTokenSource();
 
             var t1 = Task.Run(() => Print(true, cts.Token), cts.Token);
             var t2 = t1.ContinueWith((prevtask) =>
@@ -24,6 +25,19 @@ namespace _27.ChainingTasks
             , TaskContinuationOptions.OnlyOnFaulted);
 
             Console.WriteLine("Main thread is not blocked");
+
+            var t3 = Task.Run(() => Print(true, cts2.Token), cts2.Token);
+            var t4 = Task.Run(() => Print(true, cts2.Token), cts2.Token);
+
+            Task.Factory.ContinueWhenAll(new[] { t3, t4 }, tasks =>
+            {
+                var t1Task = tasks[0];
+                var t2Task = tasks[1];
+
+                Console.WriteLine($"t1Task={t1Task.Result}, t2Task={t2Task.Result}");
+            });
+
+
             Console.Read();
         }
 
