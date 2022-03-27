@@ -14,8 +14,15 @@ namespace _21.APMandEAP
             //This Method implements APM, Asynchronous Programming Model
             TestWrite();
 
+            Console.WriteLine();
+            Console.WriteLine("************************************Test after APM************************************");
+            Console.WriteLine();
+
             //This Method implements EAP, Event-Based Asynchronous Pattern
             TestEAP();
+            Console.WriteLine();
+            Console.WriteLine("<<<<<<--------------------------------Test after EAP---------------------------------->>>>>>>>>>>>");
+            Console.WriteLine();
             Thread.Sleep(60000);
         }
 
@@ -84,7 +91,6 @@ namespace _21.APMandEAP
             wc.DownloadDataCompleted += (s, e) => Console.WriteLine(Encoding.UTF8.GetString(e.Result));
             wc.DownloadDataAsync(new Uri("http://www.google.com"));
 
-            Console.ReadKey();
         }
     }
 }
