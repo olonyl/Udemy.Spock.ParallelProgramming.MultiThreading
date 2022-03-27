@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.StartingATask", "22.Star
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26.CancellingATask", "26.CancellingATask\26.CancellingATask.csproj", "{7041BF9D-A7D0-46F3-97C8-3C5C492EE05F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27.ChainingTasks", "27.ChainingTasks\27.ChainingTasks.csproj", "{EAD28408-7136-406A-A249-DECF1E644EF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{7041BF9D-A7D0-46F3-97C8-3C5C492EE05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7041BF9D-A7D0-46F3-97C8-3C5C492EE05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7041BF9D-A7D0-46F3-97C8-3C5C492EE05F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD28408-7136-406A-A249-DECF1E644EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD28408-7136-406A-A249-DECF1E644EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD28408-7136-406A-A249-DECF1E644EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD28408-7136-406A-A249-DECF1E644EF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
