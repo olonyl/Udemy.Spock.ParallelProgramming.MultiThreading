@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49.DeadLock", "49.DeadLock\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "52.AutoResetEventManualResetEventSlim", "52.AutoResetEventManualResetEventSlim\52.AutoResetEventManualResetEventSlim.csproj", "{B4ADEA09-51B8-495F-91E5-27779451178D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53.CountDownEventAndBarrier", "CountDownEventAndBarrier\53.CountDownEventAndBarrier.csproj", "{A0BDFD6B-104C-460F-9794-36174A77EB10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{B4ADEA09-51B8-495F-91E5-27779451178D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4ADEA09-51B8-495F-91E5-27779451178D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4ADEA09-51B8-495F-91E5-27779451178D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BDFD6B-104C-460F-9794-36174A77EB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BDFD6B-104C-460F-9794-36174A77EB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BDFD6B-104C-460F-9794-36174A77EB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BDFD6B-104C-460F-9794-36174A77EB10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
