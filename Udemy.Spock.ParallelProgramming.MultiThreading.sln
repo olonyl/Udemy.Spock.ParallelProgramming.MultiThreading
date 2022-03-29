@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42.ResourceSharedByThreats"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45.MonitorLock", "45.MonitorLock\45.MonitorLock.csproj", "{1BC623D9-2FF2-4974-B3DD-AB49918F4814}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "46.ReaderWriterLockSlimExample", "46.ReaderWriterLockSlim\46.ReaderWriterLockSlimExample.csproj", "{AC69704B-EA6F-4199-945C-A1B189FF608E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{1BC623D9-2FF2-4974-B3DD-AB49918F4814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC623D9-2FF2-4974-B3DD-AB49918F4814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BC623D9-2FF2-4974-B3DD-AB49918F4814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC69704B-EA6F-4199-945C-A1B189FF608E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC69704B-EA6F-4199-945C-A1B189FF608E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC69704B-EA6F-4199-945C-A1B189FF608E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC69704B-EA6F-4199-945C-A1B189FF608E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
