@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "47.SemaphoreImplementation"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49.DeadLock", "49.DeadLock\49.DeadLock.csproj", "{140EBAAB-BE1E-45B6-9C62-0CAA80F63440}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "52.AutoResetEventManualResetEventSlim", "52.AutoResetEventManualResetEventSlim\52.AutoResetEventManualResetEventSlim.csproj", "{B4ADEA09-51B8-495F-91E5-27779451178D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{140EBAAB-BE1E-45B6-9C62-0CAA80F63440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{140EBAAB-BE1E-45B6-9C62-0CAA80F63440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{140EBAAB-BE1E-45B6-9C62-0CAA80F63440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4ADEA09-51B8-495F-91E5-27779451178D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4ADEA09-51B8-495F-91E5-27779451178D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4ADEA09-51B8-495F-91E5-27779451178D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4ADEA09-51B8-495F-91E5-27779451178D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
