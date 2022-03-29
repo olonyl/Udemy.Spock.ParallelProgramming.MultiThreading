@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36.WhatIsAsync", "35.WhatIs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39.ExceptionInAsyncCode", "39.ExceptionInAsyncCode\39.ExceptionInAsyncCode.csproj", "{9F6418C8-89A1-4C90-955E-CA74ECCE07B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42.ResourceSharedByThreats", "42.ResourceSharedByThreats\42.ResourceSharedByThreats.csproj", "{DA5B3161-4650-4DDA-9DCD-CAAD2D42727D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{9F6418C8-89A1-4C90-955E-CA74ECCE07B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F6418C8-89A1-4C90-955E-CA74ECCE07B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F6418C8-89A1-4C90-955E-CA74ECCE07B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5B3161-4650-4DDA-9DCD-CAAD2D42727D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5B3161-4650-4DDA-9DCD-CAAD2D42727D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5B3161-4650-4DDA-9DCD-CAAD2D42727D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5B3161-4650-4DDA-9DCD-CAAD2D42727D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
