@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53.CountDownEventAndBarrier
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "57.BlockingVSSpinning", "57.BlockingVSSpinning\57.BlockingVSSpinning.csproj", "{584BAA5E-B4F4-4CCD-A310-98FFFF374945}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "63.ImplementingImmutableStack", "63.ImplementingImmutableStack\63.ImplementingImmutableStack.csproj", "{CBB1A584-E18E-4822-9E9F-A3839B99CEC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{584BAA5E-B4F4-4CCD-A310-98FFFF374945}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{584BAA5E-B4F4-4CCD-A310-98FFFF374945}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{584BAA5E-B4F4-4CCD-A310-98FFFF374945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB1A584-E18E-4822-9E9F-A3839B99CEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB1A584-E18E-4822-9E9F-A3839B99CEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB1A584-E18E-4822-9E9F-A3839B99CEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB1A584-E18E-4822-9E9F-A3839B99CEC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
