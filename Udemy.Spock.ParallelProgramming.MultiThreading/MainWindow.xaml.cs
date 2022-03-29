@@ -9,15 +9,19 @@ namespace Udemy.Spock.ParallelProgramming.MultiThreading
     /// </summary>
     public partial class MainWindow : Window
     {
+        private SynchronizationContext _context;
         public MainWindow()
         {
             InitializeComponent();
+            _context = SynchronizationContext.Current;
         }
 
         private void FindBook_Click(object sender, RoutedEventArgs e)
         {
             Task.Factory.StartNew(() =>
             {
+                _context.Send(state => FindBook.Content = "BOOM!!!", null);
+
                 Book result = BookStorage.Find(9787532706068);
                 Application.Current.Dispatcher.Invoke(() =>
                 {
