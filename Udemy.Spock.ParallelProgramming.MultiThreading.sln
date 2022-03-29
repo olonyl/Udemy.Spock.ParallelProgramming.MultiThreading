@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45.MonitorLock", "45.Monito
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "46.ReaderWriterLockSlimExample", "46.ReaderWriterLockSlim\46.ReaderWriterLockSlimExample.csproj", "{AC69704B-EA6F-4199-945C-A1B189FF608E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "47.SemaphoreImplementation", "47.SemaphoreImplementation\47.SemaphoreImplementation.csproj", "{04843CAE-35E5-4004-8F7A-F63166CD9663}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{AC69704B-EA6F-4199-945C-A1B189FF608E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC69704B-EA6F-4199-945C-A1B189FF608E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC69704B-EA6F-4199-945C-A1B189FF608E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04843CAE-35E5-4004-8F7A-F63166CD9663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04843CAE-35E5-4004-8F7A-F63166CD9663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04843CAE-35E5-4004-8F7A-F63166CD9663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04843CAE-35E5-4004-8F7A-F63166CD9663}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
