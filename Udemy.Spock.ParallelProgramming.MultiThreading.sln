@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "66.ImmutableSetExample", "6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "67.ImmutableDictionaryExample", "67.ImmutableDictionaryExample\67.ImmutableDictionaryExample.csproj", "{9715E1BA-D013-40E3-9934-386998F51C8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "68.BuildersInImmutableCollections", "68.BuildersInImmutableCollections\68.BuildersInImmutableCollections.csproj", "{7FDE7DA1-171E-4FE3-A409-AEE16D93768B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{9715E1BA-D013-40E3-9934-386998F51C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9715E1BA-D013-40E3-9934-386998F51C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9715E1BA-D013-40E3-9934-386998F51C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDE7DA1-171E-4FE3-A409-AEE16D93768B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDE7DA1-171E-4FE3-A409-AEE16D93768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDE7DA1-171E-4FE3-A409-AEE16D93768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDE7DA1-171E-4FE3-A409-AEE16D93768B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
