@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "63.ImplementingImmutableSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "64ImmutableStackAndQueue", "64ImmutableStackAndQueue\64ImmutableStackAndQueue.csproj", "{A45F17DB-FB37-411C-B1DA-99E7B7D1C0FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "65.ImmutableListExample", "65.ImmutableListExample\65.ImmutableListExample.csproj", "{6D8AFF30-B9CF-48B7-91E0-8CE5E4312D0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{A45F17DB-FB37-411C-B1DA-99E7B7D1C0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A45F17DB-FB37-411C-B1DA-99E7B7D1C0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A45F17DB-FB37-411C-B1DA-99E7B7D1C0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8AFF30-B9CF-48B7-91E0-8CE5E4312D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8AFF30-B9CF-48B7-91E0-8CE5E4312D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8AFF30-B9CF-48B7-91E0-8CE5E4312D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8AFF30-B9CF-48B7-91E0-8CE5E4312D0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
