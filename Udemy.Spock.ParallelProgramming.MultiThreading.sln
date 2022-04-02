@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "67.ImmutableDictionaryExamp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "68.BuildersInImmutableCollections", "68.BuildersInImmutableCollections\68.BuildersInImmutableCollections.csproj", "{7FDE7DA1-171E-4FE3-A409-AEE16D93768B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "69.ConcurrentStackAndConcurrentQueue", "69.ConcurrentStackAndConcurrentQueue\69.ConcurrentStackAndConcurrentQueue.csproj", "{0FC2B8BD-0622-4600-BE52-8B720B986EEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{7FDE7DA1-171E-4FE3-A409-AEE16D93768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FDE7DA1-171E-4FE3-A409-AEE16D93768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FDE7DA1-171E-4FE3-A409-AEE16D93768B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC2B8BD-0622-4600-BE52-8B720B986EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC2B8BD-0622-4600-BE52-8B720B986EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC2B8BD-0622-4600-BE52-8B720B986EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC2B8BD-0622-4600-BE52-8B720B986EEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
