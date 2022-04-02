@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "68.BuildersInImmutableColle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "69.ConcurrentStackAndConcurrentQueue", "69.ConcurrentStackAndConcurrentQueue\69.ConcurrentStackAndConcurrentQueue.csproj", "{0FC2B8BD-0622-4600-BE52-8B720B986EEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "71.ConcurrentDictionaryExample", "71.ConcurrentDictionaryExample\71.ConcurrentDictionaryExample.csproj", "{D22275DB-2709-4942-9749-524DC326D283}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{0FC2B8BD-0622-4600-BE52-8B720B986EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FC2B8BD-0622-4600-BE52-8B720B986EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC2B8BD-0622-4600-BE52-8B720B986EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22275DB-2709-4942-9749-524DC326D283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22275DB-2709-4942-9749-524DC326D283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22275DB-2709-4942-9749-524DC326D283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22275DB-2709-4942-9749-524DC326D283}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
