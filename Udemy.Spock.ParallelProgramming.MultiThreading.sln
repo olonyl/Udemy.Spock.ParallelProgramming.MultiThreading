@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "72.BlockingCollecionProduce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "76.ParallelClassLibrary", "76.ParallelClassLibrary\76.ParallelClassLibrary.csproj", "{D9CE0875-691D-4E1C-BFD9-7F5E0B33833B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "77.PLINQExample", "77.PLINQExample\77.PLINQExample.csproj", "{90DB6F54-00AF-47B4-94F7-532BCA6DBC32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{D9CE0875-691D-4E1C-BFD9-7F5E0B33833B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9CE0875-691D-4E1C-BFD9-7F5E0B33833B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9CE0875-691D-4E1C-BFD9-7F5E0B33833B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DB6F54-00AF-47B4-94F7-532BCA6DBC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DB6F54-00AF-47B4-94F7-532BCA6DBC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DB6F54-00AF-47B4-94F7-532BCA6DBC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DB6F54-00AF-47B4-94F7-532BCA6DBC32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
