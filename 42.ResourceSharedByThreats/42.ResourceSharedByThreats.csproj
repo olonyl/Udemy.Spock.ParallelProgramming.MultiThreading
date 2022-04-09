@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AtomicCharacter.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="CharacterLock.cs" />
+    <Compile Include="LockExtensions.cs" />
+    <Compile Include="NonAtomicCharacter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
